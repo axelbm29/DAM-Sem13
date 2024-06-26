@@ -12,9 +12,11 @@
         android:id="@+id/imageView2"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:srcCompat="@drawable/checklist"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="41dp" />
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/checklist" />
 
     <TextView
         android:id="@+id/textView"
